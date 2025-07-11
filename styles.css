@@ -146,3 +146,38 @@
 /* Action Section design shesh */
 
 
+
+/* Users Section design shurrrru */
+.users-section {
+  background-color: #e9eaff;
+  padding: 60px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 100px;
+}
+
+.users-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box h3 {
+  font-size: 32px;
+  color: #5c5bff;
+  margin-bottom: 8px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+/* Users Section design shesssshhh */
