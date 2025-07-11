@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background Wrapper */
+.background {
+  background-image: url('images/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5c5bff;
+}
+
+.signup-button button {
+  background-color: #5c5bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-button button:hover {
+  background-color: #3a39d1;
+  transform: translateY(-2px);
+}
+
+/* Banner */
+.banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.focus-button {
+  background-color: #5c5bff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.focus-button:hover {
+  background-color: #3a39d1;
+  transform: translateY(-2px);
+}
