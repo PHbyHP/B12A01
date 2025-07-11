@@ -147,7 +147,7 @@
 
 
 
-/* Users Section design shurrrru */
+/*productive Users Section design shurrrru */
 .users-section {
   background-color: #e9eaff;
   padding: 60px;
@@ -180,4 +180,79 @@
   color: #6b6b6b;
 }
 
-/* Users Section design shesssshhh */
+/*productive Users Section design shesssshhh */
+
+
+/* userer Feedback Section shuru */
+.feedback-section {
+  background-color: #f7f9ff;
+  padding: 60px;
+  text-align: center;
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  gap: 63.5px;
+  flex-wrap: wrap;
+}
+
+.feedback-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #f5c518;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.feedback-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.feedback-card p {
+  font-size: 16px;
+  color: #5f5f5f;
+  margin-bottom: 16px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reviewer-info small {
+  font-size: 12px;
+  color: #888;
+}
+
+/* userer Feedback Section shesh */
+
+
