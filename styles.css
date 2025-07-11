@@ -334,3 +334,48 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(92, 91, 255, 0.2);
 }
+
+/* form part sheshhh */
+
+
+/* Footer shuru */
+.footer {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.footer .logo {
+  font-size: 55px;
+  font-weight: 700;
+  color: #5c5bff;
+  margin-bottom: 10px;
+}
+
+.footer .subtitle {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: #5c5bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #3a39d1;
+}
+
+/* footer sheshhhh */
