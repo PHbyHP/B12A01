@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Background Wrapper */
+/* Background design ongsho */
 .background {
   background-image: url('images/Hero-bg.png');
   background-size: cover;
@@ -17,12 +17,12 @@
   flex-direction: column;
 }
 
-/* Navbar */
+/* Navbar design ongsho */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 70px;
+  padding: 60px 100px;
 }
 
 .logo {
@@ -47,7 +47,7 @@
   transform: translateY(-2px);
 }
 
-/* Banner */
+/* Banner design ongsho*/
 .banner {
   flex: 1;
   display: flex;
@@ -82,3 +82,67 @@
   background-color: #3a39d1;
   transform: translateY(-2px);
 }
+
+/*navbar & Banner design shesh*/
+
+
+
+/* Action Section design shuru */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background-color: #f7f9ff;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.action-left h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.action-left p {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-bottom: 24px;
+}
+
+.preview-button {
+  background-color: #5c5bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.preview-button:hover {
+  background-color: #3a39d1;
+  transform: translateY(-1px);
+}
+
+.action-right {
+  flex: 1;
+  text-align: right;
+}
+
+.action-right img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 20px;
+}
+
+/* Action Section design shesh */
+
+
